@@ -1,43 +1,43 @@
 import React from 'react';
-import Navigation from "../header/Navigation"
+import Navigation from "../header/Navigation";
+import {Link} from "react-router-dom"
 
 const header = () => {
     return (
         <div >
-        <header class="header-area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-2 col-sm-0">
-                        <div class="logo">
+        <header className="header-area">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-2 col-sm-0">
+                        <div className="logo">
                             <h1>ServoInSolutions</h1>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-sm-8 text-right pr-0">
-                        <div class="header-content-right">
-                            <ul class="header-contact">
-                                <li><a href="tel:+1123456789"><i class="bx bxs-phone-call"></i> +1 123 456 789</a></li>
-                                <li><a
-                                    href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#563e333a3a3916263725397835393b"><i
-                                        class="bx bxs-envelope"></i> <span class="__cf_email__"
-                                            data-cfemail="09616c6565664979687a66276a6664">[email&#160;protected]</span></a>
+                    <div className="col-lg-8 col-sm-8 text-right pr-0">
+                        <div className="header-content-right">
+                            <ul className="header-contact">
+                                <li><i className="bx bxs-phone-call"></i> +91 123 456 789</li>
+                                <li><i
+                                        className="bx bxs-envelope"></i> <span className="__cf_email__"
+                                            data-cfemail="09616c6565664979687a66276a6664">[email&#160;protected]</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-sm-4 text-right pl-0">
-                        <div class="header-content-right">
-                            <ul class="header-social">
+                    <div className="col-lg-2 col-sm-4 text-right pl-0">
+                        <div className="header-content-right">
+                            <ul className="header-social">
                                 <li>
-                                    <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+                                    <Link to="/"><i className="bx bxl-facebook"></i></Link>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
+                                    <Link to="/"><i className="bx bxl-twitter"></i></Link>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank"> <i class="bx bxs-envelope"></i></a>
+                                    <Link to="/"> <i className="bx bxs-envelope"></i></Link>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank"> <i class="bx bxl-youtube"></i></a>
+                                    <Link to="/"> <i className="bx bxl-youtube"></i></Link>
                                 </li>
                             </ul>
                         </div>

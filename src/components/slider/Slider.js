@@ -1,14 +1,16 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom"
+
 
 const Slider = () => {
   return (
-    <section class="banner-area">
-        <div class="d-table">
-            <div class="d-table-cell">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="banner-content">
+    <section className="banner-area">
+        <div className="d-table">
+            <div className="d-table-cell">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className="banner-content">
                                 <h1>
                                     Trusted Effective Service and Solutions
                                 </h1>
@@ -16,14 +18,14 @@ const Slider = () => {
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, et sed do eiusmod tempor
                                     incididunt labore dolore magna aliqua. Quis ipsum suspendisse.
                                 </p>
-                                <div class="banner-btn">
-                                    <a href="contact.html" class="box-btn">Contact Us</a>
-                                    <a href="about.html" class="box-btn border-btn">Know More</a>
+                                <div className="banner-btn">
+                                    <Link to="/" className="box-btn">Contact Us</Link>
+                                    <Link to="/" className="box-btn border-btn">Know More</Link>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="banner-img">
+                        <div className="col-lg-6">
+                            <div className="banner-img">
                                 <img src="assets/images/home-bg-1-img.png" alt="banner-img" />
                             </div>
                         </div>
@@ -31,23 +33,23 @@ const Slider = () => {
                 </div>
             </div>
         </div>
-        <div class="home-shape">
-            <div class="shape1">
+        <div className="home-shape">
+            <div className="shape1">
                 <img src="assets/images/shape/1.png" alt="shape" />
             </div>
-            <div class="shape2">
+            <div className="shape2">
                 <img src="assets/images/shape/2.png" alt="shape" />
             </div>
-            <div class="shape3">
+            <div className="shape3">
                 <img src="assets/images/shape/3.png" alt="shape" />
             </div>
-            <div class="shape4">
+            <div className="shape4">
                 <img src="assets/images/shape/4.png" alt="shape" />
             </div>
-            <div class="shape5">
+            <div className="shape5">
                 <img src="assets/images/shape/5.png" alt="shape" />
             </div>
-            <div class="shape6">
+            <div className="shape6">
                 <img src="assets/images/shape/6.png" alt="shape" />
             </div>
         </div>

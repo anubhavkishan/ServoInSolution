@@ -1,17 +1,14 @@
 import './App.css';
+import Header from "./components/header/Header"
+import Slider from "./components/slider/Slider"
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"> 
-        <h1>
-          This website is Under Developement
-        </h1>
-        <p
-        >
-          www.servoinsolution.com
-        </p>
-      </header>
+    <Header />
+    <Slider />
     </div>
   );
 }

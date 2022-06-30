@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 const header = () => {
     return (
-        <div >
+        
         <header className="header-area">
             <div className="container">
                 <div className="row align-items-center">
@@ -45,9 +45,6 @@ const header = () => {
                 </div>
             </div>
         </header>
-        <Navigation />
-        </div>
-        
     )
 }
 

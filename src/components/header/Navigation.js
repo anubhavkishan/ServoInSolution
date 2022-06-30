@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="navbar-area">
             <div className="mobile-nav">
                 <Link to="/" className="logo">
-                    <img src="assets/images/logo.png" alt="logo" />
+                    <h1>ServoInSolutions</h1>
                 </Link>
             </div>
             <div className="main-nav">

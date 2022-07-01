@@ -18,7 +18,7 @@ const header = () => {
                                 <li><i className="bx bxs-phone-call"></i> +91 123 456 789</li>
                                 <li><i
                                         className="bx bxs-envelope"></i> <span className="__cf_email__"
-                                            data-cfemail="09616c6565664979687a66276a6664">[email&#160;protected]</span>
+                                            data-cfemail="09616c6565664979687a66276a6664">info@servoinsolutions.com</span>
                                 </li>
                             </ul>
                         </div>

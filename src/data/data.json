@@ -1,0 +1,70 @@
+[
+    {
+        "cards": [
+            {
+                "id": 1,
+                "image": "assets/images/service/s1.png",
+                "heading": "Visual Design",
+                "paragraph": "Ea velit magna est laboris nostrud sint quis in culpa."
+            },
+            {
+                "id": 2,
+                "image": "assets/images/service/s2.png",
+                "heading": "Development",
+                "paragraph": "Magna voluptate do aliquip sunt incididunt veniam sint reprehenderit occaecat tempor enim reprehenderit ipsum."
+            },
+            {
+                "id": 3,
+                "image": "assets/images/service/s3.png",
+                "heading": "QA Testing",
+                "paragraph": "Commodo officia magna excepteur irure dolor eu esse quis ipsum aliqua do."
+            },
+            {
+                "id": 4,
+                "image": "assets/images/service/s4.png",
+                "heading": "IT Management",
+                "paragraph": "Non sit anim minim consectetur reprehenderit ipsum id dolor aliquip qui occaecat ex."
+            },
+            {
+                "id": 5,
+                "image": "assets/images/service/s5.png",
+                "heading": "Cyber Security",
+                "paragraph": "Consequat tempor tempor aute laboris cupidatat esse do fugiat enim Lorem nulla in incididunt cupidatat."
+            },
+            {
+                "id": 6,
+                "image": "assets/images/service/s6.png",
+                "heading": "Wireless Connectivity",
+                "paragraph": "Elit esse ullamco deserunt sit ullamco culpa commodo aute voluptate labore aute nulla."
+            }
+        ]
+    },
+    {
+        "teams": [
+            {
+                "id": 1,
+                "image": "assets/images/team/t1.jpg",
+                "name": "Naresh Kumar",
+                "designation": "Founder / CEO"
+            },
+            {
+                "id": 2,
+                "image": "assets/images/team/t2.jpg",
+                "name": "John Doe",
+                "designation": "CTO"
+            },
+            {
+                "id": 3,
+                "image": "assets/images/team/t3.jpg",
+                "name": "David Venkatraman",
+                "designation": "Senior Software Developer"
+            },
+            {
+                "id": 4,
+                "image": "assets/images/team/t4.jpg",
+                "name": "Mahi Verma",
+                "designation": "Web Developer"
+            }
+        ]
+    }
+]

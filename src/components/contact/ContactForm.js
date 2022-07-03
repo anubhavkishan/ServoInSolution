@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ContactUs = () => {
+const ContactForm = () => {
   return (
     <section className="home-contact-area bg-color ptb-100">
         <div className="container">
@@ -75,4 +75,4 @@ const ContactUs = () => {
   )
 }
 
-export default ContactUs
+export default ContactForm

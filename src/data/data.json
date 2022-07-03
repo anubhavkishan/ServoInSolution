@@ -66,5 +66,46 @@
                 "designation": "Web Developer"
             }
         ]
+    },
+    {
+        "serviceCards": [
+            {
+                "id": 1,
+                "image": "assets/images/case/c1.jpg",
+                "serviceName": "Web Developement",
+                "details": "Quis nisi minim deserunt eiusmod reprehenderit laboris laborum."
+            },
+            {
+                "id": 2,
+                "image": "assets/images/case/c2.jpg",
+                "serviceName": "Web Developement",
+                "details": "Quis nisi minim deserunt eiusmod reprehenderit laboris laborum."
+            },
+            {
+                "id": 3,
+                "image": "assets/images/case/c3.jpg",
+                "serviceName": "Web Developement",
+                "details": "Quis nisi minim deserunt eiusmod reprehenderit laboris laborum."
+            },
+            {
+                "id": 4,
+                "image": "assets/images/case/c4.jpg",
+                "serviceName": "Web Developement",
+                "details": "Quis nisi minim deserunt eiusmod reprehenderit laboris laborum."
+            },
+            {
+                "id": 5,
+                "image": "assets/images/case/c5.jpg",
+                "serviceName": "Web Developement",
+                "details": "Quis nisi minim deserunt eiusmod reprehenderit laboris laborum."
+            },
+            {
+                "id": 6,
+                "image": "assets/images/case/c6.jpg",
+                "serviceName": "Web Developement",
+                "details": "Quis nisi minim deserunt eiusmod reprehenderit laboris laborum."
+            }
+
+        ]
     }
 ]

@@ -60,11 +60,9 @@ const Footer = () => {
                 <h3>Quick Links</h3>
                 <ul className="footer-list">
                   <li><Link to="/">FAQ</Link></li>
-                  <li><Link to="/">Service</Link></li>
-                  <li><Link to="/">Career</Link></li>
+                  <li><Link to="/services">Services</Link></li>
                   <li><Link to="/">Privacy & Policy</Link></li>
                   <li><Link to="/">Terms & Conditions</Link></li>
-                  <li><Link to="/">Data Analysis</Link></li>
                 </ul>
               </div>
             </div>
@@ -72,14 +70,16 @@ const Footer = () => {
               <div className="content contacts">
                 <h3 className="ml-40">Contact</h3>
                 <ul className="footer-list foot-social">
-                  <li><a href="tel:+1123456789"><i className="bx bx-mobile-alt"></i> +1 123 456 789</a></li>
-                  <li><a href="tel:+1975456789"><i className="bx bx-phone"></i> +1 975 456 789</a></li>
+                  <li><a href="tel:+919868476879"><i className="bx bx-mobile-alt"></i> +91 9868476879</a></li>
+                  <li><a href="tel:+919289566794"><i className="bx bx-phone"></i> +91 9289566794</a></li>
                   <li><i
                       className="bx bxs-envelope"></i> <span className="__cf_email__"
                         data-cfemail="b9d1dcd5d5d6f9c9d8cad697dad6d4">info@servoinsolutions.com</span>
                   </li>
                   
-                  <li><i className="bx bxs-map"></i> 28/A street, New York, USA</li>
+                  <li><i className="bx bxs-map"></i> S-85 A, 3RD FLOOR ,PANDAV NAGAR 
+                  OPP - MOTHER DAIRY, DELHI 110092
+                  </li>
                 </ul>
               </div>
             </div>
@@ -91,11 +91,10 @@ const Footer = () => {
               <div className="col-lg-6">
                 <ul className="menu">
                   <li><Link to="/">Home</Link></li>
-                  <li><Link to="/">About</Link></li>
-                  <li><Link to="/">Solutions</Link></li>
-                  <li><Link to="/">Case Studies</Link></li>
-                  <li><Link to="/">Blog</Link></li>
-                  <li><Link to="/">Contact</Link></li>
+                  <li><Link to="/about">About</Link></li>
+                  <li><Link to="/solutions">Solutions</Link></li>
+                  <li><Link to="/services">Our Services</Link></li>
+                  <li><Link to="/contact">Contact</Link></li>
                 </ul>
               </div>
               <div className="col-lg-6">

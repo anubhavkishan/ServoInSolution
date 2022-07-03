@@ -18,7 +18,7 @@ const OurCompany = () => {
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some form variations passages.</p>
                             </div>
-                            <Link to="/" className="box-btn">
+                            <Link to="/about" className="box-btn">
                                 Know More
                             </Link>
                         </div>

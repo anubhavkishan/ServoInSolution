@@ -20,20 +20,18 @@ const Navigation = () => {
 
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link">About</Link>
+                                    <Link to="/about" className="nav-link">About</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link ">Solutions</Link>
+                                    <Link to="/solutions" className="nav-link ">Solutions</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link ">Our Services</Link>
+                                    <Link to="/services" className="nav-link ">Our Services</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link">Contact </Link>
+                                    <Link to="/contact" className="nav-link">Contact </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link to="/" className="nav-link ">Blogs</Link>
-                                </li>
+
                             </ul>
                         </div>
 

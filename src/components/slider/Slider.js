@@ -19,8 +19,8 @@ const Slider = () => {
                                     incididunt labore dolore magna aliqua. Quis ipsum suspendisse.
                                 </p>
                                 <div className="banner-btn">
-                                    <Link to="/" className="box-btn">Contact Us</Link>
-                                    <Link to="/" className="box-btn border-btn">Know More</Link>
+                                    <Link to="/contact" className="box-btn">Contact Us</Link>
+                                    <Link to="/about" className="box-btn border-btn">Know More</Link>
                                 </div>
                             </div>
                         </div>

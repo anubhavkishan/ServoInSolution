@@ -3,11 +3,12 @@ import Header from '../../components/header/Header'
 import Slider from '../../components/slider/Slider'
 import Navigation from '../../components/header/Navigation';
 import Footer from "../../components/footer/Footer"
-import ServiceCard from '../../components/cards/ServiceCard';
+import ServiceCard from '../../components/cards/Card';
 import OurCompany from '../../components/ourCompany/OurCompany';
 import Team from '../../components/team/Team';
-import ContactUs from '../../components/contact/ContactUs';
+import ContactUs from '../../components/contact/ContactForm';
 import WorkProgress from '../../components/workProgress/WorkProgress';
+import ChooseServoIn from '../../components/choose-servoin/ChooseServoIn';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <ServiceCard />
             <OurCompany />
             <WorkProgress />
+            <ChooseServoIn />
             <Team />
             <ContactUs />
             <Footer />

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 
-const header = () => {
+const Header = () => {
     return (
         
         <header className="header-area">
@@ -15,7 +15,7 @@ const header = () => {
                     <div className="col-lg-8 col-sm-8 text-right pr-0">
                         <div className="header-content-right">
                             <ul className="header-contact">
-                                <li><i className="bx bxs-phone-call"></i> +91 123 456 789</li>
+                                <li><i className="bx bxs-phone-call"></i> +91 9868476879</li>
                                 <li><i
                                         className="bx bxs-envelope"></i> <span className="__cf_email__"
                                             data-cfemail="09616c6565664979687a66276a6664">info@servoinsolutions.com</span>
@@ -47,4 +47,4 @@ const header = () => {
     )
 }
 
-export default header
+export default Header
